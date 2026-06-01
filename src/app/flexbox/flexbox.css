@@ -1,0 +1,39 @@
+
+.container{
+    display: flex;
+    min-height:80vh;
+}
+
+.sidebar{
+    width: 250px;
+    background-color: #eeeeee;
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.content{
+    flex: 1;
+    padding: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.student-card{
+    width: 250px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color: whitesmoke;
+}
